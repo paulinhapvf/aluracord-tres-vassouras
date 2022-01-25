@@ -1,0 +1,52 @@
+{
+    "name": "ALURACORD - Hogwarts | paulinhapvf",
+    "theme": {
+      "colors": {
+        "grifinoria": {
+          "bordo": "#740001",
+          "vermelho": "#AE0001",
+          "amarelo": "#EEBA30",
+          "mostarda": "#D3A625",
+          "preto": "#000000",
+          "branco": "#FFFFFF"
+          
+        },
+        "sonserina": {
+          "musgo": "#1A472A",
+          "verde": "#2A623D",
+          "chumbo": "#5D5D5D",
+          "cinza": "#AAAAAA",
+          "preto": "#000000",
+          "branco": "#FFFFFF"
+         
+        },
+        "convinal": {
+          "noturno": "#111C40",
+          "azul": "#1D2A54",
+          "chumbo": "#545454",
+          "cinza": "#7e7e7e",
+          "preto": "#000000",
+          "branco": "#FFFFFF"
+         
+        },
+        "lufalufa": {
+          "canario": "#ECB939",
+          "amarelinho": "#F0C75E",
+          "camurca": "#726255",
+          "marrom": "#372E29",
+          "preto": "#000000",
+          "branco": "#FFFFFF"
+         
+        }
+      }
+    },
+    "stickers": [
+      "http://2.bp.blogspot.com/-d21tffsTIQo/U_H9QjC69gI/AAAAAAAAKqM/wnvOyUr6a_I/s1600/Pikachu%2B2.gif",
+      "https://media1.giphy.com/media/BdghqxNFV4efm/200.gif",
+      "https://c.tenor.com/TKpmh4WFEsAAAAAC/alura-gaveta-filmes.gif",
+      "https://i.pinimg.com/originals/0b/1c/23/0b1c2307c83e1ebdeed72e41b9a058ad.gif",
+      "https://c.tenor.com/VylWt5lyjBoAAAAC/omg-yes.gif",
+      "https://i.pinimg.com/originals/96/34/c5/9634c520c9a3cd4e7f23190bb2c96500.gif",
+      "https://giphy.com/embed/hMMfRc0lGq5bi"
+    ]
+  }
