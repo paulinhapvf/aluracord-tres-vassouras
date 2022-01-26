@@ -21,10 +21,11 @@ function Titulo(props){
 }
 
   export default function PaginaInicial() {
-    // const username = 'paulinhapvf';
-    const [username, setUsername] = React.useState('paulinhapvf');
+    const [username, setUsername] = React.useState('usuário');
     const roteamento = useRouter();
-      
+    const linkImagemUsername = `https://github.com/${username}.png`
+    const userImage = `${(username.length > 2) ? linkImagemUsername : 'https://pixabay.com/get/ge1f0de8facba8f87886a825cbc2f1e695a2a0da69b86536af520cfe2da30de7e68b59a44cbdf20fead335fac0d76d3ff04185dd0bf0a68ed789b7c5d2b69fc5f37e4b94a79d4294b8721780d4075f392_1280.png'}`
+          
     return (
       <>
          <Box
@@ -83,7 +84,7 @@ function Titulo(props){
                 fullWidth
                 onChange= {function handler(event){
                   const valor = event.target.value;
-                  setUsername(valor);
+                    setUsername(valor);
                   }
               }
                 textFieldColors={{
@@ -98,6 +99,7 @@ function Titulo(props){
               <Button
                 type='submit'
                 label='Gota de limão'
+                disabled = { username.length < 3}
                 fullWidth
                 buttonColors={{
                   contrastColor: appConfig.theme.colors.grifinoria['preto'],
@@ -106,6 +108,8 @@ function Titulo(props){
                   mainColorStrong: appConfig.theme.colors.grifinoria['amarelo'],
                 }}
               />
+
+             
             </Box>
             {/* Formulário */}
   
@@ -129,7 +133,8 @@ function Titulo(props){
                   borderRadius: '50%',
                   marginBottom: '16px',
                 }}
-                src={`https://github.com/${username}.png`}
+                
+                  src = {userImage}
               />
               <Text
                 variant="body4"
