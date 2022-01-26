@@ -23,8 +23,8 @@ function Titulo(props){
   export default function PaginaInicial() {
     const [username, setUsername] = React.useState('usuário');
     const roteamento = useRouter();
-    const linkImagemUsername = `https://github.com/${username}.png`
-    const userImage = `${(username.length > 2) ? linkImagemUsername : 'https://pixabay.com/get/ge1f0de8facba8f87886a825cbc2f1e695a2a0da69b86536af520cfe2da30de7e68b59a44cbdf20fead335fac0d76d3ff04185dd0bf0a68ed789b7c5d2b69fc5f37e4b94a79d4294b8721780d4075f392_1280.png'}`
+    const imageLinkUsername = `https://github.com/${username}.png`
+    const userImage = `${(username.length > 2) ? imageLinkUsername : 'https://pixabay.com/get/ge1f0de8facba8f87886a825cbc2f1e695a2a0da69b86536af520cfe2da30de7e68b59a44cbdf20fead335fac0d76d3ff04185dd0bf0a68ed789b7c5d2b69fc5f37e4b94a79d4294b8721780d4075f392_1280.png'}`
           
     return (
       <>
